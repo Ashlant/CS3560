@@ -1,15 +1,10 @@
+import java.util.List;
+
 public class Team {
 	private int code;
-	private Player player;
+	private List<Player> player;
   
-  public Team() {
-    //...
-  }
-	public Team(int code) {
-		this.code = code;
-	}
-	public Team(int code, Player player) {
-		this.code = code;
-		this.player = player;
-	}
+  	public Team() {
+    		//...
+  	}
 }

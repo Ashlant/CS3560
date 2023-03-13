@@ -1,6 +1,6 @@
 public class Player {
-	private String name;
-  private boolean expert;
+  	private String name;
+  	private boolean expert;
 	
 	public Player(String name, boolean expert) {
 		this.name = name;
